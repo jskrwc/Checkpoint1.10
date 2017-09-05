@@ -1,0 +1,123 @@
+header {
+ background-color: green;
+ background-image: url(images/dive3.jpg);
+ background-repeat: no-repeat;
+ /*border: 1px solid black;*/
+ margin: 0 px;
+ padding: 10px 50px;
+ text-shadow: 1px 1px 1px aqua;
+ font-family: trebuchet;
+ font-size:24px;
+  /*display: inline;*/
+}
+ h1 {
+   color:blue;
+}
+.header-part2 p {
+  text-shadow:none;
+  /*padding: 10px;*/
+  color:000;
+  display: inline;
+  text-size: 12px;
+  padding-left:300px;
+}
+
+main {
+  font-family: verdana;
+}
+
+nav {
+  background-color: lightyellow;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid black;
+}
+nav li {
+  display:inline;
+  padding:30px;
+}
+
+nav li a {
+  display: inline;
+  padding: 10px;
+  text-decoration:none;
+  color: red;
+}
+
+.featured-pic {
+  padding: 0px 20px;
+  /*margin-top: 10px;
+  margin-left:20px;*/
+  /*margin: 10px 0px 0px 10px;*/
+  display:block;
+  margin: auto;
+  color:green;
+  font-size: 15px;
+
+}
+
+.featured-pic img {
+    border-radius: 20px;
+}
+
+.menu-head {
+  color: red;
+  /*text-align: center;*/
+  margin-left:20px;
+  line-height: 12px;
+  border: 1px solid black;
+  margin-bottom:10px;
+}
+
+.menu-item {
+  color:red;
+  margin-left: 20px;
+  margin-right: 0px;
+  display:inline-block;
+  font-size: 15px;
+  padding-bottom: 0px;
+  text-align: top;
+}
+
+.menu-item img {
+  border-radius: 15px;
+  box-shadow: 1px 2px 2px #000;
+  float: left;
+  margin-right: 10px;
+}
+.menu-item p {
+  font-size: 12px;
+}
+
+.map {
+  border: 5px solid black;
+  margin-left: 100px;
+}
+.hours {
+  background: linear-gradient(to bottom, red, yellow);
+  border:1px solid blue;
+  padding: 10px;
+  margin: 10px 0px 0px 0px;
+  box-shadow: 1px 2px 2px black;
+  font-family: verdana;
+  color: green;
+  font-weight: bold;
+}
+footer {
+  background: green;
+  margin-top: 0px;
+  border: 1px solid black;
+}
+
+footer li {
+    display: inline;
+    padding: 10px;
+    text-decoration:none;
+    color: gray;
+}
+footer li a {
+  /*display: inline;*/
+  padding: 10px;
+  text-decoration:none;
+  color: gray;
+}
